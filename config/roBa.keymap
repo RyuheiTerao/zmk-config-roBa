@@ -91,18 +91,18 @@
 
         Num {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                              &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &trans      &none           &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
-&trans        &trans        &trans        &trans        &trans  &trans      &trans          &none         &trans  &trans  &trans  &none
-&trans        &trans        &trans        &trans        &trans  &trans      &kp LEFT_SHIFT  &kp LSHIFT                            &none
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                              &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &trans      &none           &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans  &trans      &trans          &none         &trans  &trans  &trans  &none
+&trans          &trans        &trans        &trans        &trans  &trans      &kp LEFT_SHIFT  &kp LSHIFT                            &none
             >;
         };
 
         Symbol {
             bindings = <
-&none                 &kp INT_YEN           &kp TILDE             &kp LEFT_BRACE        &kp RIGHT_BRACE                                               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp MINUS
+&kp ESC               &kp INT_YEN           &kp TILDE             &kp LEFT_BRACE        &kp RIGHT_BRACE                                               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp MINUS
 &kp LS(RS(NUMBER_1))  &kp LS(RS(NUMBER_2))  &kp LS(RS(NUMBER_3))  &kp LS(RS(NUMBER_4))  &kp LS(RS(N5))   &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp LS(RS(NUMBER_6))  &kp RS(LS(N7))         &kp RS(LS(N8))        &kp RS(LS(N9))     &kp LS(N0)
-&none                 &none                 &none                 &none                 &none            &kp EQUAL                    &trans          &kp PLUS              &kp MINUS              &kp LS(RS(ASTERISK))  &kp SLASH          &kp INT3
+&kp LEFT_SHIFT        &none                 &none                 &none                 &none            &kp EQUAL                    &trans          &kp PLUS              &kp MINUS              &kp LS(RS(ASTERISK))  &kp SLASH          &kp INT3
 &trans                &trans                &trans                &trans                &trans           &trans                       &trans          &trans                                                                                &kp PIPE
             >;
         };
